@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "aurora",
+  "version": "${version}",
+  "name": "Aurora Cheat Client",
+  "description": "Modular utility client with ClickGUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.aurora.AuroraClient"] },
+  "mixins": ["aurora.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

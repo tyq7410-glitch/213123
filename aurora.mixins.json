@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.aurora.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["EntityMixin", "MinecraftClientAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}
